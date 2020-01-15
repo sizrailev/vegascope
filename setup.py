@@ -53,7 +53,7 @@ setup(name="vegascope",
       download_url = "https://raw.githubusercontent.com/scikit-hep/vegascope/master/vegascope.py",
       license = "BSD 3-clause",
       install_requires = [],
-      entry_points = {'altair.vegalite.v3.renderer': ['vegascope=vegascope:_vegalite_renderer_entry_point']},
+      entry_points = {'altair.vegalite.v4.renderer': ['vegascope=vegascope:_vegalite_renderer_entry_point']},
       classifiers = [
           "Development Status :: 5 - Production/Stable",
           "Intended Audience :: Developers",
